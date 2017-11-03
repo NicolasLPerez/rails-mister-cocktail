@@ -1,15 +1,12 @@
 <%= render 'shared/banner' %>
-
 <div class="container">
   <div class="row">
-    <ul>
       <% @cocktails.each do |cocktail| %>
-    <div class="col-xs-12 col-sm-4">
-      <li> <%= link_to cocktail.name, cocktail %> </li>
-    </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card">
+            <%= link_to cocktail.name, cocktail %>
+          </div>
+        </div>
       <% end %>
-    </ul>
   </div>
 </div>
-
-
