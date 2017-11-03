@@ -1,1 +1,19 @@
 // Specific CSS for your home-page
+h1 {
+  font-size: 70px;
+}
+
+a:link {
+    color: #FB0006;
+}
+
+a {
+  color: #FB0006;
+  margin: 6px;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
